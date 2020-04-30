@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MWA</string>
+    <string name="txtArnoldo">       Video: <a href="https://youtu.be/c6jOgMoBt_Y">https://youtu.be/c6jOgMoBt_Y</a></string>
+    <string name="txtEugene">Video: <a href="https://youtu.be/XMLeeO2JFbQ">https://youtu.be/XMLeeO2JFbQ</a></string>
+    <string name="txtSantiago">Video: <a href="https://youtu.be/B9lKslbeNQE">https://youtu.be/B9lKslbeNQE</a></string>
+    <string name="txtRafael">Video: <a href="https://youtu.be/dTXiH2hRmFs">https://youtu.be/dTXiH2hRmFs</a></string>
+    <string name="txtRobert">Video: <a href="https://youtu.be/Su6TgLPQO7I">https://youtu.be/Su6TgLPQO7I</a></string>
+    <string name="txtBhadreshkumar">Video: <a href="https://youtu.be/RTgkyjSV08g">https://youtu.be/RTgkyjSV08g</a></string>
+    <string name="txtAlejandro">Video: <a href="https://youtu.be/J15ty9UkTpI">https://youtu.be/J15ty9UkTpI</a></string>
+    <string name="txtJoanne">Video: <a href="https://youtu.be/q4mziCJheiw">https://youtu.be/q4mziCJheiw</a></string>
+
+</resources>

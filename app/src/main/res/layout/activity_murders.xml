@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Murders">
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-245dp">
+
+        <TextView
+            android:id="@+id/txtMurders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Most Wanted Murderers"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imgBob"
+            android:layout_width="125dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMurders"
+            app:srcCompat="@drawable/bobtang" />
+
+        <TextView
+            android:id="@+id/nameBob"
+            android:layout_width="194dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            android:text="Bob Tang"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBob"
+            app:layout_constraintTop_toBottomOf="@+id/txtMurders" />
+
+        <TextView
+            android:id="@+id/infoBob"
+            android:layout_width="248dp"
+            android:layout_height="107dp"
+            android:text="   Date(s) of Birth Used: May 2, 1969
+            \n   Place of Birth: Combodia
+            \n   Hair:	Black        Eyes:	Brown
+            \n   Height:	5'4&quot;       Weight:	130 pounds
+            \n   Sex:	Male
+            \n   Race: Asian
+            \n   Nationality:	Cambodian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBob"
+            app:layout_constraintTop_toBottomOf="@+id/nameBob" />
+
+        <Button
+            android:id="@+id/btnBob"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBob" />
+
+
+
+        <ImageView
+            android:id="@+id/imgJorge"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBob"
+            app:srcCompat="@drawable/jorgeernestoricoruvira" />
+
+
+        <TextView
+            android:id="@+id/nameJorge"
+            android:layout_width="236dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="88dp"
+            android:text="Jorge Ernesto Rico-Ruvira"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgJorge"
+            app:layout_constraintTop_toBottomOf="@+id/infoBob" />
+
+        <TextView
+            android:id="@+id/infoJorge"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:text="   Date(s) of Birth Used:	 November 17, 1987
+                \n   Place of Birth:	Guadalajara, Mexico
+                \n   Hair:	Black        Eyes: Brown
+                \n   Height: 5'8&quot;       Weight: 150 pounds
+                \n   Sex:	Male
+                \n   Race: White(Hispanic)
+                \n   Nationality:	Mexican"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgJorge"
+            app:layout_constraintTop_toBottomOf="@+id/nameJorge" />
+
+        <Button
+            android:id="@+id/btnJorge"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJorge"
+            tools:layout_editor_absoluteY="754dp" />
+
+        <ImageView
+            android:id="@+id/imgRyan"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="76dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJorge"
+            app:srcCompat="@drawable/ryandriverameister" />
+
+        <TextView
+            android:id="@+id/nameRyan"
+            android:layout_width="171dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="52dp"
+            android:text="Ryan D. Rivera-Mister"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRyan"
+            app:layout_constraintTop_toBottomOf="@+id/infoJorge" />
+
+        <TextView
+            android:id="@+id/infoRyan"
+            android:layout_width="248dp"
+            android:layout_height="116dp"
+            android:layout_marginStart="1dp"
+            android:text="   Date(s) of Birth Used:	March 1, 1996
+                \n   Place of Birth:	Nebraska
+                \n   Hair:	Brown           Eyes:	Hazel
+                \n   Height: 5'8&quot;       Weight: 150 pounds
+                \n   Sex:	Male
+                \n   Race: White(Hispanic)
+                \n   Nationality:	American
+                "
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRyan"
+            app:layout_constraintTop_toBottomOf="@+id/nameRyan" />
+
+        <Button
+            android:id="@+id/btnRyan"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRyan" />
+
+        <ImageView
+            android:id="@+id/imgEvelin"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="84dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRyan"
+            app:srcCompat="@drawable/evelinmartinez" />
+
+        <TextView
+            android:id="@+id/nameEvelin"
+            android:layout_width="216dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="84dp"
+            android:text="Evelin Martinez"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgEvelin"
+            app:layout_constraintTop_toBottomOf="@+id/infoRyan" />
+
+        <TextView
+            android:id="@+id/infoEvelin"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	December 30, 1991
+                \n   Place of Birth:	California
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	5'2&quot;        Weight:	115 pounds
+                \n   Sex:   Female
+                \n   Race:	White(Hispanic)
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgEvelin"
+            app:layout_constraintTop_toBottomOf="@+id/nameEvelin" />
+
+        <Button
+            android:id="@+id/btnEvelin"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgEvelin" />
+
+
+        <ImageView
+            android:id="@+id/imgAndre"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgEvelin"
+            app:srcCompat="@drawable/libanhajimohamed" />
+
+        <TextView
+            android:id="@+id/nameAndre"
+            android:layout_width="224dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:text="Andre J. Fleurentin"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAndre"
+            app:layout_constraintTop_toBottomOf="@+id/infoEvelin" />
+
+        <TextView
+            android:id="@+id/infoAndre"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	January 1, 1971
+                \n   Place of Birth:	Haiti
+                \n   Hair:	Black/Bald                  Eyes:	Brown
+                \n   Height:	5'6&quot;         Weight:	140 to 150 pounds
+                \n   Sex:	Male
+                \n   Race:	Black
+                \n   Nationality:	Haitian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAndre"
+            app:layout_constraintTop_toBottomOf="@+id/nameAndre" />
+
+        <Button
+            android:id="@+id/btnAndre"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAndre" />
+
+        <ImageView
+            android:id="@+id/imgDennis"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAndre"
+            app:srcCompat="@drawable/dennismcunningham" />
+
+        <TextView
+            android:id="@+id/nameDennis"
+            android:layout_width="254dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="72dp"
+            android:text="Dennis M. Cunningham"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgDennis"
+            app:layout_constraintTop_toBottomOf="@+id/infoAndre" />
+
+        <TextView
+            android:id="@+id/infoDennis"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used: September 15, 1969
+            \n   Place of Birth:	New Jersey
+            \n   Hair:	Black/Bald          Eyes:	Brown
+            \n   Height:	6'2&quot;        Weight:	200 to 220 pounds
+            \n   Sex:	Male
+            \n   Race:	Black
+            \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgDennis"
+            app:layout_constraintTop_toBottomOf="@+id/nameDennis" />
+
+        <Button
+            android:id="@+id/btnDennis"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDennis" />
+
+        <ImageView
+            android:id="@+id/imgSteven"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDennis"
+            app:srcCompat="@drawable/stevengiovanniaguilarmedina" />
+
+        <TextView
+            android:id="@+id/nameSteven"
+            android:layout_width="237dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="44dp"
+            android:text="Steven Giovanni Aguilar Medina"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSteven"
+            app:layout_constraintTop_toBottomOf="@+id/infoDennis" />
+
+        <TextView
+            android:id="@+id/infoSteven"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	March 18, 1993
+                \n   Place of Birth:	California
+                \n   Hair:	Black          Eyes:	Brown
+                \n   Height:	5'9&quot;        Weight:  125 pounds
+                \n   Sex:	Male
+                \n   Race: White(Hispanic)
+                \n   Citizenship:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSteven"
+            app:layout_constraintTop_toBottomOf="@+id/nameSteven" />
+
+
+        <ImageView
+            android:id="@+id/imgManuel"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgSteven"
+            app:srcCompat="@drawable/manuelvirgengalvan" />
+
+        <TextView
+            android:id="@+id/nameManuel"
+            android:layout_width="217dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="Manuel Virgen-Galvan"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgManuel"
+            app:layout_constraintTop_toBottomOf="@+id/infoSteven" />
+
+        <TextView
+            android:id="@+id/infoManuel"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	March 12, 1982
+                \n   Place of Birth:	Mexico
+                \n   Hair:	Black          Eyes:	Brown
+                \n   Height:	5'9&quot;        Weight:	165 pound
+                \n   Sex:	Male
+                \n   Race:  White(Hispanic)"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgManuel"
+            app:layout_constraintTop_toBottomOf="@+id/nameManuel" />
+
+        <Button
+            android:id="@+id/btnManuel"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgManuel" />
+
+        <ImageView
+            android:id="@+id/imgCesar"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgManuel"
+            app:srcCompat="@drawable/cesarsolteroherrera" />
+
+        <TextView
+            android:id="@+id/nameCesar"
+            android:layout_width="221dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="64dp"
+            android:text="Cesar Soltero Herrero"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgCesar"
+            app:layout_constraintTop_toBottomOf="@+id/infoManuel" />
+
+        <TextView
+            android:id="@+id/infoCesar"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	April 18, 1988
+                \n   Place of Birth:	California
+                \n   Hair:	Black          Eyes:	Brown
+                \n   Height:	5'10&quot;        Weight:	160 pounds
+                \n   Sex:	Male
+                \n   Race:  White(Hispanic)
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgCesar"
+            app:layout_constraintTop_toBottomOf="@+id/nameCesar" />
+
+        <Button
+            android:id="@+id/btnCesar"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgCesar" />
+
+        <ImageView
+            android:id="@+id/imgAndres"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgCesar"
+            app:srcCompat="@drawable/andreszambrano" />
+
+        <TextView
+            android:id="@+id/nameAndres"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:text="Andres Zambrano"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAndres"
+            app:layout_constraintTop_toBottomOf="@+id/infoCesar" />
+
+        <TextView
+            android:id="@+id/infoAndres"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used	June 30, 1990
+                \n   Place of Birth:	California
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	5'8&quot;        Weight:	245 to 260 pounds
+                \n   Sex:	Male
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAndres"
+            app:layout_constraintTop_toBottomOf="@+id/nameAndres" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Terrorists">
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-245dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Most Wanted Terrorists"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imgSajid"
+            android:layout_width="125dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/sajidmir" />
+
+        <TextView
+            android:id="@+id/nameSajid"
+            android:layout_width="194dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            android:text="Sajid Mir"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSajid"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/infoSajid"
+            android:layout_width="248dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="96dp"
+            android:text="   Date(s) of Birth Used: January 1, 1978
+            \n   Place of Birth: Lahore, Pakistan
+            \n   Hair:	Black        Eyes:	Brown
+            \n   Height:	5'6&quot;       Weight:	132 pounds
+            \n   Sex:	Male
+            \n   Nationality:	Pakistani"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSajid"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/btnSajid"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgSajid" />
+
+
+
+        <ImageView
+            android:id="@+id/imgHusam"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgSajid"
+            app:srcCompat="@drawable/husamabdalrauf" />
+
+
+        <TextView
+            android:id="@+id/nameHusam"
+            android:layout_width="236dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="88dp"
+            android:text="Husam Abd-Al-Ra'Uf"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgHusam"
+            app:layout_constraintTop_toBottomOf="@+id/infoSajid" />
+
+        <TextView
+            android:id="@+id/infoHusam"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:text="   Date(s) of Birth Used:	 1958
+                \n   Place of Birth:	Egypt
+                \n   Hair:	Reddish
+                \n   Sex:	Male
+                \n   Nationality:	Egyptian"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgHusam"
+            app:layout_constraintTop_toBottomOf="@+id/nameHusam" />
+
+        <Button
+            android:id="@+id/btnHusam"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgHusam"
+            tools:layout_editor_absoluteY="754dp" />
+
+        <ImageView
+            android:id="@+id/imgAhlam"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="76dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgHusam"
+            app:srcCompat="@drawable/ahlamahmadaitamimi" />
+
+        <TextView
+            android:id="@+id/nameAhlam"
+            android:layout_width="171dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="52dp"
+            android:text="Ahlam Ahmad Ai-Tamimi"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAhlam"
+            app:layout_constraintTop_toBottomOf="@+id/infoHusam" />
+
+        <TextView
+            android:id="@+id/infoAhlam"
+            android:layout_width="248dp"
+            android:layout_height="116dp"
+            android:layout_marginStart="1dp"
+            android:text="   Date(s) of Birth Used:	November 20, 1980
+                \n   Place of Birth:	Al-Zarqa, Jordan
+                \n   Hair:	Brown           Eyes:	Brown
+                \n   Sex:	Female
+                \n   Occupation:	Journalist
+                \n   Nationality:	Jordanian
+                "
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAhlam"
+            app:layout_constraintTop_toBottomOf="@+id/nameAhlam" />
+
+        <Button
+            android:id="@+id/btnAhlam"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAhlam" />
+
+        <ImageView
+            android:id="@+id/imgJoanne"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="84dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAhlam"
+            app:srcCompat="@drawable/joannedeborahchesimard" />
+
+        <TextView
+            android:id="@+id/nameJoanne"
+            android:layout_width="217dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="52dp"
+            android:text="Joanne Deborah Chesimard"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgJoanne"
+            app:layout_constraintTop_toBottomOf="@+id/infoAhlam" />
+
+        <TextView
+            android:id="@+id/infoJoanne"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	July 16, 1947
+                \n   Place of Birth:	New York
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	5'7&quot;        Weight:	135 to 150 pounds
+                \n   Sex:   Female
+                \n   Race:	Black
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgJoanne"
+            app:layout_constraintTop_toBottomOf="@+id/nameJoanne" />
+
+        <Button
+            android:id="@+id/btnJoanne"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJoanne" />
+
+        <TextView
+            android:id="@+id/txtJoanne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtJoanne"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgJoanne"
+            app:layout_constraintTop_toBottomOf="@+id/infoJoanne" />
+
+        <ImageView
+            android:id="@+id/imgLiban"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJoanne"
+            app:srcCompat="@drawable/libanhajimohamed" />
+
+        <TextView
+            android:id="@+id/nameLiban"
+            android:layout_width="224dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:text="Liban Haji Mohamed"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgLiban"
+            app:layout_constraintTop_toBottomOf="@+id/infoJoanne" />
+
+        <TextView
+            android:id="@+id/infoLiban"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	January 4, 1986
+                \n   Place of Birth:	Somalia
+                \n   Hair:	Black                  Eyes:	Brown
+                \n   Height:	6'0&quot;         Weight:	194 pounds
+                \n   Sex:	Male
+                \n   Race:	Black
+                \n   Occupation:   Taxicab Driver
+                \n   Nationality:	Somali"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgLiban"
+            app:layout_constraintTop_toBottomOf="@+id/nameLiban" />
+
+        <Button
+            android:id="@+id/btnLiban"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgLiban" />
+
+        <ImageView
+            android:id="@+id/imgRaddulan"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgLiban"
+            app:srcCompat="@drawable/raddulansahiron" />
+
+        <TextView
+            android:id="@+id/nameRaddulan"
+            android:layout_width="254dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="72dp"
+            android:text="Raddulan Sahiron"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRaddulan"
+            app:layout_constraintTop_toBottomOf="@+id/infoLiban" />
+
+        <TextView
+            android:id="@+id/infoRaddulan"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Place of Birth:	Jolo, Philippines                 \n   Hair:	Gray          Eyes:	Black                 \n   Height:	5'6&quot;        Weight:	140 pounds                 \n   Sex:	Male                 \n   Race:	Asian                 \n   Nationality:	Filipino"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRaddulan"
+            app:layout_constraintTop_toBottomOf="@+id/nameRaddulan" />
+
+        <Button
+            android:id="@+id/btnRaddulan"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRaddulan" />
+
+        <ImageView
+            android:id="@+id/imgAhmad"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRaddulan"
+            app:srcCompat="@drawable/ahmadabousamra" />
+
+        <TextView
+            android:id="@+id/nameAhmad"
+            android:layout_width="233dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="64dp"
+            android:text="Ahmad Abousamra"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAhmad"
+            app:layout_constraintTop_toBottomOf="@+id/infoRaddulan" />
+
+        <TextView
+            android:id="@+id/infoAhmad"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	September 19, 1981
+                \n   Place of Birth:	France
+                \n   Hair:	Brown          Eyes:	Brown
+                \n   Height:	5'11&quot;        Weight:  170 pounds
+                \n   Sex:	Male
+                \n   Citizenship:	Syrian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAhmad"
+            app:layout_constraintTop_toBottomOf="@+id/nameAhmad" />
+
+        <Button
+            android:id="@+id/btnAhmad"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAhmad" />
+
+        <ImageView
+            android:id="@+id/imgAbdullah"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAhmad"
+            app:srcCompat="@drawable/abdullahahmedabdullah" />
+
+        <TextView
+            android:id="@+id/nameAbdullah"
+            android:layout_width="217dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="Abdullah Ahmed Abdullah"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAbdullah"
+            app:layout_constraintTop_toBottomOf="@+id/infoAhmad" />
+
+        <TextView
+            android:id="@+id/infoAbdullah"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	1963
+                \n   Place of Birth:	Egypt
+                \n   Hair:	Dark          Eyes:	Dark
+                \n   Height:	5'8&quot;        Weight:	Unknown
+                \n   Sex:	Male
+                \n   Nationality:	Egyptian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAbdullah"
+            app:layout_constraintTop_toBottomOf="@+id/nameAbdullah" />
+
+        <Button
+            android:id="@+id/btnAbdullah"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAbdullah" />
+
+        <ImageView
+            android:id="@+id/imgHasan"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAbdullah"
+            app:srcCompat="@drawable/hasanizzaldin" />
+
+        <TextView
+            android:id="@+id/nameHasan"
+            android:layout_width="221dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="64dp"
+            android:text="Hasan Izz-Al-Din"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgHasan"
+            app:layout_constraintTop_toBottomOf="@+id/infoAbdullah" />
+
+        <TextView
+            android:id="@+id/infoHasan"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	1963
+                \n   Place of Birth:	Lebannon
+                \n   Hair:	Black          Eyes:	Black
+                \n   Height:	5'9&quot;        Weight:	145 to 150 pounds
+                \n   Sex:	Male
+                \n   Nationality:	Lebanese"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgHasan"
+            app:layout_constraintTop_toBottomOf="@+id/nameHasan" />
+
+        <Button
+            android:id="@+id/btnHasan"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgHasan" />
+
+        <ImageView
+            android:id="@+id/imgRamadan"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgHasan"
+            app:srcCompat="@drawable/romadanabdullahmohammadshallah" />
+
+        <TextView
+            android:id="@+id/nameRamadan"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:text="Ramadan Abdullah Mohammad Shallah"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRamadan"
+            app:layout_constraintTop_toBottomOf="@+id/infoHasan" />
+
+        <TextView
+            android:id="@+id/infoRamadan"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used	January 1, 1958
+                \n   Place of Birth:	Sajaya, Gaza Strip
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	6'1&quot;        Weight:	225 pounds
+                \n   Sex:	Male
+                \n   Nationality:	Palestinian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRamadan"
+            app:layout_constraintTop_toBottomOf="@+id/nameRamadan" />
+
+        <Button
+            android:id="@+id/btnRamadan"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRamadan" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

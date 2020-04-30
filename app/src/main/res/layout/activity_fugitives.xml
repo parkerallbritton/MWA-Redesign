@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fugitives">
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-245dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Top 10 Fugitives"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/infoArnoldo"
+            android:layout_width="248dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="96dp"
+            android:text="   Date(s) of Birth Used: February 19, 1982 \n   Place of Birth: Texas
+            \n   Hair:	Black        Eyes:	Brown \n   Height:	6'0&quot;       Weight:	200 to 225 pounds
+            \n   Sex:	Male \n   Race:	White (Hispanic) \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAroldo"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/infoJason"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="16dp"
+            android:text="   Date(s) of Birth Used:	July 1, 1969
+                \n   Place of Birth:	California
+                \n   Hair:	Blond           Eyes:	Green
+                \n   Height:	5'10&quot;        Weight:	170 to 180 pounds
+                \n   Sex:	Male
+                \n   Race:	White
+                \n   Occupation:	Golf Equipment Importer
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgJason"
+            app:layout_constraintTop_toBottomOf="@+id/nameJason" />
+
+        <TextView
+            android:id="@+id/infoYaser"
+            android:layout_width="248dp"
+            android:layout_height="116dp"
+            android:layout_marginEnd="16dp"
+            android:text="   Date(s) of Birth Used:	January 27, 1957
+                \n   Place of Birth:	Sinai, Egypt
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	6'2&quot;        Weight:	180 pounds
+                \n   Sex:	Male
+                \n   Race:	White
+                \n   Occupation:	Said has driven taxi cabs
+                \n   Nationality:	Egyptian
+                "
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgYaser"
+            app:layout_constraintTop_toBottomOf="@+id/nameYaser" />
+
+        <TextView
+            android:id="@+id/infoAlexis"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	July 18, 1975
+                \n   Place of Birth:	Honduras
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	5'4&quot;        Weight:	130 to 140 pounds
+                \n   Sex:	Male
+                \n   Race:	White (Hispanic)
+                \n   Occupation:	Handyman
+                \n   Nationality:	Honduran"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAlexis"
+            app:layout_constraintTop_toBottomOf="@+id/nameAlexis" />
+
+        <TextView
+            android:id="@+id/infoEugene"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	April, 1939
+                \n   Place of Birth:	New York
+                \n   Hair:	Gray - Balding          Eyes:	Brown
+                \n   Height:	5'10&quot;         Weight:	220 pounds
+                \n   Sex:	Male
+                \n   Race:	White
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgEugene"
+            app:layout_constraintTop_toBottomOf="@+id/nameEugene" />
+
+        <ImageView
+            android:id="@+id/imgAroldo"
+            android:layout_width="125dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/arnoldojimenez" />
+
+        <ImageView
+            android:id="@+id/imgJason"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAroldo"
+            app:srcCompat="@drawable/jasonderekbrown" />
+
+        <TextView
+            android:id="@+id/nameArnoldo"
+            android:layout_width="194dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
+            android:text="Arnoldo Jimenez"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/infoArnoldo"
+            app:layout_constraintStart_toEndOf="@+id/imgAroldo"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/nameJason"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="88dp"
+            android:text="Jason Derek Brown"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgJason"
+            app:layout_constraintTop_toBottomOf="@+id/infoArnoldo" />
+
+        <TextView
+            android:id="@+id/nameYaser"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:text="Yaser Abdel Said"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgYaser"
+            app:layout_constraintTop_toBottomOf="@+id/infoJason" />
+
+        <TextView
+            android:id="@+id/nameAlexis"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="Alexis Flores"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAlexis"
+            app:layout_constraintTop_toBottomOf="@+id/infoYaser" />
+
+        <TextView
+            android:id="@+id/nameEugene"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:text="Eugene Palmer"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgEugene"
+            app:layout_constraintTop_toBottomOf="@+id/infoAlexis" />
+
+        <TextView
+            android:id="@+id/nameSantiago"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="56dp"
+            android:text="Santiago Villalba Mederos"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSantiago"
+            app:layout_constraintTop_toBottomOf="@+id/infoEugene" />
+
+        <TextView
+            android:id="@+id/infoSantiago"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	June 5, 1991
+                \n   Place of Birth:	Washington
+                \n   Hair:	Black          Eyes:	Brown
+                \n   Height:	5'10&quot;        Weight:	140 pounds
+                \n   Sex:	Male
+                \n   Race:	White (Hispanic)
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSantiago"
+            app:layout_constraintTop_toBottomOf="@+id/nameSantiago" />
+
+        <TextView
+            android:id="@+id/nameRafael"
+            android:layout_width="233dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="64dp"
+            android:text="Rafael Caro-Quintero"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRafael"
+            app:layout_constraintTop_toBottomOf="@+id/infoSantiago" />
+
+        <TextView
+            android:id="@+id/infoRafael"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	October 24, 1952
+                \n   Place of Birth:	Sinaloa, Mexico
+                \n   Hair:	Gray          Eyes:	Brown
+                \n   Height:	6'0&quot;        Weight:  159 to 170 pounds
+                \n   Sex:	Male
+                \n   Race:	White (Hispanic)
+                \n   Nationality:	Mexico"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRafael"
+            app:layout_constraintTop_toBottomOf="@+id/nameRafael" />
+
+        <TextView
+            android:id="@+id/nameRobert"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:text="Robert William Fischer"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRobert"
+            app:layout_constraintTop_toBottomOf="@+id/infoRafael" />
+
+        <TextView
+            android:id="@+id/infoRobert"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used:	April, 1961
+                \n   Place of Birth:	New York
+                \n   Hair:	Brown          Eyes:	Blue
+                \n   Height:	6'0&quot;        Weight:	190 pounds
+                \n   Sex:	Male
+                \n   Race:	White
+                \n   Occupation:	Surgical Catheter Technician
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRobert"
+            app:layout_constraintTop_toBottomOf="@+id/nameRobert" />
+
+        <TextView
+            android:id="@+id/nameBhadreshkumar"
+            android:layout_width="218dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:text="Bhadreshkumar Chetanbhai Patel"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBhadreshkumar"
+            app:layout_constraintTop_toBottomOf="@+id/infoRobert" />
+
+        <TextView
+            android:id="@+id/infoBhadreshkumar"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used	May 15, 1990
+                \n   Place of Birth:	Gujarat, India
+                \n   Hair:	Brown          Eyes:	Brown
+                \n   Height:	5'9&quot;        Weight:	165 pounds
+                \n   Sex:	Male
+                \n   Occupation:	Employee of donut shop
+                \n   Nationality:	Indian"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBhadreshkumar"
+            app:layout_constraintTop_toBottomOf="@+id/nameBhadreshkumar" />
+
+        <TextView
+            android:id="@+id/nameAlejandro"
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:text="Alejandro Rosales Castillo"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAlejandro"
+            app:layout_constraintTop_toBottomOf="@+id/infoBhadreshkumar" />
+
+        <TextView
+            android:id="@+id/infoAlejandro"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:text="   Date(s) of Birth Used	November 26, 1998
+                \n   Place of Birth:	Arizona
+                \n   Hair:	Black           Eyes:	Brown
+                \n   Height:	5'6&quot;        Weight:	180 to 190 pounds
+                \n   Sex:	Male
+                \n   Race:	White (Hispanic)
+                \n   Nationality:	American"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAlejandro"
+            app:layout_constraintTop_toBottomOf="@+id/nameAlejandro" />
+
+        <ImageView
+            android:id="@+id/imgYaser"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJason"
+            app:srcCompat="@drawable/yaserabdelsaid" />
+
+        <ImageView
+            android:id="@+id/imgAlexis"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgYaser"
+            app:srcCompat="@drawable/alexisflores" />
+
+        <ImageView
+            android:id="@+id/imgEugene"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAlexis"
+            app:srcCompat="@drawable/eugenepalmer" />
+
+        <ImageView
+            android:id="@+id/imgSantiago"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgEugene"
+            app:srcCompat="@drawable/santiagovillalbamederos" />
+
+        <ImageView
+            android:id="@+id/imgRafael"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgSantiago"
+            app:srcCompat="@drawable/rafaelcaroquintero" />
+
+        <ImageView
+            android:id="@+id/imgRobert"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRafael"
+            app:srcCompat="@drawable/robertwilliamfisher" />
+
+        <ImageView
+            android:id="@+id/imgBhadreshkumar"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRobert"
+            app:srcCompat="@drawable/bhadreshkumarchetanbhaipatel" />
+
+        <ImageView
+            android:id="@+id/imgAlejandro"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBhadreshkumar"
+            app:srcCompat="@drawable/alejandrorosalescastillo" />
+
+        <Button
+            android:id="@+id/btnJason"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJason" />
+
+        <Button
+            android:id="@+id/btnYaser"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgYaser" />
+
+        <Button
+            android:id="@+id/btnAlexis"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAlexis" />
+
+        <Button
+            android:id="@+id/btnEugene"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgEugene" />
+
+        <Button
+            android:id="@+id/btnRobert"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRobert" />
+
+        <Button
+            android:id="@+id/btnBhadreshkumar"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:text="Poster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBhadreshkumar" />
+
+        <TextView
+            android:id="@+id/txtArnoldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtArnoldo"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAroldo"
+            app:layout_constraintTop_toBottomOf="@+id/infoArnoldo" />
+
+        <TextView
+            android:id="@+id/txtEugene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtEugene"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgEugene"
+            app:layout_constraintTop_toBottomOf="@+id/infoEugene" />
+
+
+        <TextView
+            android:id="@+id/txtSantiago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtSantiago"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSantiago"
+            app:layout_constraintTop_toBottomOf="@+id/infoSantiago" />
+
+        <TextView
+            android:id="@+id/txtRafael"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtRafael"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRafael"
+            app:layout_constraintTop_toBottomOf="@+id/infoRafael" />
+
+        <TextView
+            android:id="@+id/txtRobert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtRobert"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgRobert"
+            app:layout_constraintTop_toBottomOf="@+id/infoRobert" />
+
+        <TextView
+            android:id="@+id/txtBhadreshkumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtBhadreshkumar"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBhadreshkumar"
+            app:layout_constraintTop_toBottomOf="@+id/infoBhadreshkumar" />
+
+        <TextView
+            android:id="@+id/txtAlejandro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autoLink="web"
+            android:text="@string/txtAlejandro"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgAlejandro"
+            app:layout_constraintTop_toBottomOf="@+id/infoAlejandro" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
